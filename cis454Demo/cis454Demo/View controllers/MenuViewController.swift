@@ -1,10 +1,11 @@
 //
 //  MenuViewController.swift
-//  Main Menu
+//  cis454Demo
 //
-//  Created by Yian Yu on 2/6/20.
-//  Copyright © 2020 Yian Yu. All rights reserved.
+//  Created by Yumi on 2/22/20.
+//  Copyright © 2020 Yumi. All rights reserved.
 //
+
 
 import UIKit
 enum MenuType: Int {
@@ -24,4 +25,3 @@ class MenuViewController: UITableViewController {
     }
     }
     }
-

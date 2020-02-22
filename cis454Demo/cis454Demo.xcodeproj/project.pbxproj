@@ -19,11 +19,8 @@
 		3253EA8E23EB7A1500151D27 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3253EA8D23EB7A1500151D27 /* HomeViewController.swift */; };
 		32582EDF23EF51FA0043A4FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32582EDE23EF51FA0043A4FB /* GoogleService-Info.plist */; };
 		32EA502F23EF632900ABDA11 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EA502E23EF632900ABDA11 /* Constants.swift */; };
-		AEE8C9D923EF6F9300668B7D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8C9D823EF6F9300668B7D /* SettingViewController.swift */; };
-		AEE8C9DB23EF6FA800668B7D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8C9DA23EF6FA800668B7D /* MenuViewController.swift */; };
-		AEE8C9DD23EF6FAE00668B7D /* ApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8C9DC23EF6FAE00668B7D /* ApplicationViewController.swift */; };
-		AEE8C9DF23EF6FB500668B7D /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8C9DE23EF6FB500668B7D /* ScheduleViewController.swift */; };
-		AEE8C9E123EF6FE600668B7D /* SlideAndTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8C9E023EF6FE600668B7D /* SlideAndTransition.swift */; };
+		AE3338922401CACF00E31A6C /* SlideAndTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3338912401CACF00E31A6C /* SlideAndTransition.swift */; };
+		AE3338962401CE6600E31A6C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3338952401CE6600E31A6C /* MenuViewController.swift */; };
 		F5428D537FECFD0B477AEFF4 /* Pods_cis454Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB35ED90C225625C3DA6F89 /* Pods_cis454Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,11 +41,8 @@
 		32582EDE23EF51FA0043A4FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		32EA502E23EF632900ABDA11 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A60A48C4BDC3A0A998061886 /* Pods-cis454Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cis454Demo.debug.xcconfig"; path = "Target Support Files/Pods-cis454Demo/Pods-cis454Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		AEE8C9D823EF6F9300668B7D /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		AEE8C9DA23EF6FA800668B7D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		AEE8C9DC23EF6FAE00668B7D /* ApplicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationViewController.swift; sourceTree = "<group>"; };
-		AEE8C9DE23EF6FB500668B7D /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
-		AEE8C9E023EF6FE600668B7D /* SlideAndTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideAndTransition.swift; sourceTree = "<group>"; };
+		AE3338912401CACF00E31A6C /* SlideAndTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideAndTransition.swift; sourceTree = "<group>"; };
+		AE3338952401CE6600E31A6C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		EAC95A1DE00EE1FE5B734D03 /* Pods-cis454Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cis454Demo.release.xcconfig"; path = "Target Support Files/Pods-cis454Demo/Pods-cis454Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +70,7 @@
 		3253EA6923EB790900151D27 = {
 			isa = PBXGroup;
 			children = (
+				AE3338942401CB3D00E31A6C /* SlideAndTransition */,
 				3253EA7423EB790900151D27 /* cis454Demo */,
 				3253EA7323EB790900151D27 /* Products */,
 				60411A34700C11FA1CB33FCE /* Pods */,
@@ -110,15 +105,11 @@
 		3253EA8F23EB7A4100151D27 /* View controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AEE8C9E023EF6FE600668B7D /* SlideAndTransition.swift */,
-				AEE8C9DE23EF6FB500668B7D /* ScheduleViewController.swift */,
-				AEE8C9DC23EF6FAE00668B7D /* ApplicationViewController.swift */,
-				AEE8C9DA23EF6FA800668B7D /* MenuViewController.swift */,
-				AEE8C9D823EF6F9300668B7D /* SettingViewController.swift */,
 				3253EA8923EB79DF00151D27 /* SignUpViewController.swift */,
 				3253EA8B23EB79FC00151D27 /* LoginViewController.swift */,
 				3253EA8D23EB7A1500151D27 /* HomeViewController.swift */,
 				3253EA7923EB790900151D27 /* ViewController.swift */,
+				AE3338952401CE6600E31A6C /* MenuViewController.swift */,
 			);
 			path = "View controllers";
 			sourceTree = "<group>";
@@ -138,6 +129,14 @@
 				EAC95A1DE00EE1FE5B734D03 /* Pods-cis454Demo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE3338942401CB3D00E31A6C /* SlideAndTransition */ = {
+			isa = PBXGroup;
+			children = (
+				AE3338912401CACF00E31A6C /* SlideAndTransition.swift */,
+			);
+			path = SlideAndTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,19 +255,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE8C9E123EF6FE600668B7D /* SlideAndTransition.swift in Sources */,
 				3253EA7A23EB790900151D27 /* ViewController.swift in Sources */,
-				AEE8C9DB23EF6FA800668B7D /* MenuViewController.swift in Sources */,
+				AE3338962401CE6600E31A6C /* MenuViewController.swift in Sources */,
 				3253EA7623EB790900151D27 /* AppDelegate.swift in Sources */,
-				AEE8C9DF23EF6FB500668B7D /* ScheduleViewController.swift in Sources */,
+				AE3338922401CACF00E31A6C /* SlideAndTransition.swift in Sources */,
 				324A104D23EF491500883820 /* Utilities.swift in Sources */,
 				3253EA8A23EB79DF00151D27 /* SignUpViewController.swift in Sources */,
 				3253EA8C23EB79FC00151D27 /* LoginViewController.swift in Sources */,
-				AEE8C9D923EF6F9300668B7D /* SettingViewController.swift in Sources */,
 				3253EA7823EB790900151D27 /* SceneDelegate.swift in Sources */,
 				3253EA8E23EB7A1500151D27 /* HomeViewController.swift in Sources */,
 				32EA502F23EF632900ABDA11 /* Constants.swift in Sources */,
-				AEE8C9DD23EF6FAE00668B7D /* ApplicationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
