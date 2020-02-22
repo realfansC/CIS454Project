@@ -17,17 +17,18 @@ class HomeViewController: UIViewController {
     }
     
 
-    @IBAction func didTapMenu(_ sender: UIBarButtonItem) {
-        guard let menuViewController = storyboard?.instantiateViewController(withIdentifier: "MenuViewController")
-            else
-           {return}
-        menuViewController.modalPresentationStyle = .overCurrentContext
-        menuViewController.transitioningDelegate = self
-            present(menuViewController, animated: true)
-    }
-    
-}
 
+  
+    @IBAction func didTapMenu(_ sender: UIBarButtonItem) {
+       guard let menuViewController = storyboard?.instantiateViewController(withIdentifier: "MenuViewController")
+        else
+       {return}
+    menuViewController.modalPresentationStyle = .overCurrentContext
+    menuViewController.transitioningDelegate = self
+        present(menuViewController, animated: true)
+    }
+
+}
 extension HomeViewController: UIViewControllerTransitioningDelegate{
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         transition.isPresenting = true

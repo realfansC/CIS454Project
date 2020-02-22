@@ -1,9 +1,9 @@
 //
 //  SlideAndTransition.swift
-//  Main Menu
+//  cis454Demo
 //
-//  Created by Yian Yu on 2/8/20.
-//  Copyright © 2020 Yian Yu. All rights reserved.
+//  Created by Yian Yu on 2/22/20.
+//  Copyright © 2020 张尧. All rights reserved.
 //
 
 import UIKit
@@ -38,5 +38,6 @@ class SlideAndTransition: NSObject,UIViewControllerAnimatedTransitioning{
         }
         }
 }
+
 
 
